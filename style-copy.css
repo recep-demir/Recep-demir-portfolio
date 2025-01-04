@@ -235,7 +235,7 @@ span{
 .skills-box:hover{
     border-color: var(--main-color);
     transform: scale(1.02);
-    box-shadow: 0 0 3rem var(--main-color);
+    /* box-shadow: 0 0 3rem var(--main-color); */
 }
 .skills-box i{
     font-size: 5rem;
@@ -278,9 +278,12 @@ span{
     overflow: hidden;
     border-radius: 10px;
 
-
 }
-
+.projects-box:hover img{
+    transform: scale(1.1);
+    transition: all 1s;
+    /* box-shadow: 0 0 3rem var(--main-color); */
+}
 .projects-box img{
     width: 100%;
     height: 100%;
@@ -362,7 +365,7 @@ span{
 .footer-iconTop a:hover{
     border-color: var(--main-color);
     transform: scale(1.02);
-    box-shadow: 0 0 3rem var(--main-color);
+    box-shadow: 0 0 0.5rem var(--main-color);
 }
 
 
