@@ -185,6 +185,9 @@ section{
 .about-content{
     width: 75%;
 }
+.about-content p{
+    line-height:1.7rem;
+}
 
 .heading{
     border: 2px;
@@ -222,8 +225,8 @@ span{
 }
 
 .skills-box{
-    width: 20%;
-    flex: 1 1 30rem;
+    width: 40%;
+    /* flex: 1 1 50%; */
     background-color:var(--second-bg-color);
     border-radius: 2rem;
     text-align: center;
@@ -367,12 +370,6 @@ span{
     transform: scale(1.02);
     box-shadow: 0 0 0.5rem var(--main-color);
 }
-
-
-
-
-
-
 @media (max-width: 768px) {
     /* .header {
         padding: 1rem 2rem;
